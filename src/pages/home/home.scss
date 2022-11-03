@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  background-color: rgb(65 105 225 / 13%);
+  .homeContainer {
+    flex: 6;
+
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgb(118 118 118);
+      box-shadow: 2px 4px 10px 1px rgb(118 118 118);
+      padding: 20px;
+      background-color: #cfcfeceb;
+      margin: 20px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+      transition: box-shadow 0.8s;
+      
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+    .listContainer:hover{
+      -webkit-box-shadow: 2px 4px 10px 1px rgb(48, 48, 48);
+      box-shadow: 2px 4px 10px 1px rgb(48, 48, 48);
+    }
+  }
+}
